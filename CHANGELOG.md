@@ -8,3 +8,4 @@
 
 ### Results
 - Extruder (left) extruded virtually nothing.
+- Some head movements very fast
