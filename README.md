@@ -1,6 +1,12 @@
 # Flashforge Creator Pro Cura Settings
 
-These setting are tested with Ultimaker Cura 4.4.1, Raspberry Pi 3B+, OctoPi 
+These setting are tested with:
+
+* Ultimaker Cura 4.4.1
+* Raspberry Pi 3B+
+* OctoPrint 1.3.12
+* GPX Plugin 2.6.3
+* PSU Control 0.1.9 (not yet working)
 
 ## Installation
 
@@ -32,7 +38,9 @@ Should be TRUE. Make sure that the OctoPrint printer profile has the origin set 
 [Octoprint group](https://groups.google.com/forum/#!forum/octoprint)
 [GPX group](https://groups.google.com/forum/#!forum/gpx-converter)
 [Slic3r manual](http://manual.slic3r.org/)
+[Alternative Pi case](https://www.thingiverse.com/thing:947903)
 
 ## To Do
 
 * Verify GPIO pin and voltage of the relay.
+* Review everything and document what worked (and what did not), what was worth doing (and what was not).
