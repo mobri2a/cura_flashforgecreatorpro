@@ -1,6 +1,6 @@
 # Flashforge Creator Pro Cura Settings
 
-These setting are tested with Ultimaker Cura 4.4.1.
+These setting are tested with Ultimaker Cura 4.4.1, Raspberry Pi 3B+, OctoPi 
 
 ## Installation
 
@@ -32,3 +32,7 @@ Should be TRUE. Make sure that the OctoPrint printer profile has the origin set 
 [Octoprint group](https://groups.google.com/forum/#!forum/octoprint)
 [GPX group](https://groups.google.com/forum/#!forum/gpx-converter)
 [Slic3r manual](http://manual.slic3r.org/)
+
+## To Do
+
+* Verify GPIO pin and voltage of the relay.
