@@ -23,4 +23,12 @@ Cura can slice to x3g using the X3GWrite plugin. That's great for printing from 
 Should be TRUE. Make sure that the OctoPrint printer profile has the origin set to center, as well.
 
 ## References
-(Makerbot gcode)[http://makerbot.wikidot.com/gcode]
+[Makerbot gcode](http://makerbot.wikidot.com/gcode)
+[RepRap gcode](https://reprap.org/wiki/G-code)
+[OctoPrint Mod for Flashforge Creator Pro](https://www.instructables.com/id/OctoPrint-Mod-for-FlashForge-Creator-Pro/)
+[Flashforge Creator Pro & Raspberry Pi 2 & Octoprint](https://www.thingiverse.com/groups/flashforge/forums/general/topic:11749)
+[Thingiverse Flashforge Thread](https://www.thingiverse.com/groups/flashforge/forums/general/topic:11749)
+[Flashforge group](https://groups.google.com/forum/#!forum/flashforge)
+[Octoprint group](https://groups.google.com/forum/#!forum/octoprint)
+[GPX group](https://groups.google.com/forum/#!forum/gpx-converter)
+[Slic3r manual](http://manual.slic3r.org/)
