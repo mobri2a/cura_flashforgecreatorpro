@@ -16,9 +16,6 @@
         "machine_nozzle_size": { "default_value": 0.4 },
         "material_diameter": { "default_value": 1.75 },
         "machine_nozzle_offset_x": { "default_value": 0.0 },
-        "machine_nozzle_offset_y": { "default_value": 0.0 },
-        "machine_extruder_start_code": {
-            "default_value": "; **** FlashForge Creator Pro PRINTER start.gcode for using left extruder only ****\nM83 ; relative extrusion mode\nM73 P0 ; enable build progress\nG162 X Y F1500 ; home XY maximum\nG161 Z F1200 ; home Z minimum\nG92 Z-5 ; set Z to -5\nG1 Z0 ; move Z to 0\nG161 Z F100 ; home Z slowly\nM132 X Y Z A B ; recall home offsets\nM135 T0 ; load right extruder offsets\nG1 X-110 Y-70 Z30 F2500 ; move to wait position left hand side of the table\nG130 X20 Y20 Z20 A20 B20 ; lower stepper Vrefs while heating\nM127; disable fan\nM140 S{material_bed_temperature} T0 ; set bed temperature\nM134 T0 ; stabilize bed temperature\nM104 S{material_print_temperature_layer_0} T1 ; set left extruder temperature\nM133 T1 ; stabilize left extruder temperature\nG130 X127 Y127 Z40 A127 B127 ; default stepper Vrefs\nG92 A0 B0 ; zero extruders\nG1 Z0.4 ; position nozzle\nM135 T1 ; left tool\nG1 X-140 Y-70 F2500 ; reposition nozzle\nG1 X-100 Y-70 E25 F300 ; purge nozzle\nG1 X-110 Y-70 Z0.15 F1200 ; slow wipe\nG1 X-100 Y-70 Z0.5 F1200 ; lift\nG92 A0 B0 ; zero extruders\nM73 P1 ;@body (notify GPX body has started)\n; **** end of start.gcode ****\n"
-        }
+        "machine_nozzle_offset_y": { "default_value": 0.0 }
     }
 }
