@@ -11,11 +11,8 @@ These setting are tested with:
 ## Installation
 
 1. Copy the files in **definitions**, **extruders**, **images**, and **meshes** to the corresponding folder under your *Ultimaker Cura 4.x* **resources** folder.
-
 2. Start Cura
-
 3. Add a Printer
-
 4. Select *Flashforge* -> *Flashforge Creator Pro*
 
 ## Notes
@@ -39,6 +36,9 @@ Should be TRUE. Make sure that the OctoPrint printer profile has the origin set 
 * [GPX group](https://groups.google.com/forum/#!forum/gpx-converter)
 * [Slic3r manual](http://manual.slic3r.org/)
 * [Alternative Pi case](https://www.thingiverse.com/thing:947903)
+* [IOError](https://community.octoprint.org/t/please-help-me-offline-ioerror-errno-5/3360/19)
+* [CTC Replicator Issues (Replicator clone)](https://community.octoprint.org/t/ctc-replicator-clone-using-x3g-files/2072)
+* [CTC_Dual project on GitHub](https://github.com/andypugh/CTC_Dual)
 
 ## To Do
 
